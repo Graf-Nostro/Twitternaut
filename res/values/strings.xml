@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Twitternaut</string>
+    <string name="preference">preference</string>
+    <string name="remember">Remember me: </string>
+    <string name="btnlogin">Login</string>
+    <string name="callback">oauth://login</string>
+    <string name="logout">logout</string>
+    <string name="refresh">refresh</string>
+    <string name="send">send</string>
+    <string name="ticker">New TweetFlow parsed!</string>
+    <string name="welcome">Welcome to Twitternaut</string>
+    <string name="introduction">Please register or use your Twitter account to use this application, you can do this by clicking on the login button, which will direct you to the Twitter homepage where the registration process will be done.</string>
+</resources>

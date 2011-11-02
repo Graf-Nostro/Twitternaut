@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+	<TabHost xmlns:android="http://schemas.android.com/apk/res/android"
+		android:id="@android:id/tabhost"
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent">
+			<LinearLayout
+				android:orientation="vertical"
+				android:layout_width="fill_parent"
+				android:layout_height="fill_parent"
+				android:padding="8dp">
+
+				<ProgressBar
+  					android:id="@+id/progressBar"
+  					android:layout_width="wrap_content"
+         			android:layout_height="wrap_content"
+         			android:layout_gravity="center_horizontal"
+      	   			android:layout_marginRight="5dp">
+  				</ProgressBar>
+  				
+  				<LinearLayout
+  					android:orientation="vertical"
+					android:layout_width="fill_parent"
+					android:layout_height="wrap_content">
+					
+  					<EditText android:id="@+id/sendText"
+  						android:layout_width="fill_parent"
+						android:layout_height="wrap_content"
+						android:lines="4"
+  						android:visibility="gone"/>
+  					
+  					<LinearLayout
+  						android:orientation="horizontal"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:layout_gravity="right">
+						
+  						<Button android:id="@+id/toggleButton"
+  					    	android:text="hide"
+	  						android:layout_height="wrap_content"
+    	 					android:layout_width="wrap_content"
+    	 					android:layout_weight="0"
+							android:visibility="gone"/>
+						
+  						<Button android:id="@+id/sendButton"
+  						    android:text="send"
+  							android:layout_height="wrap_content"
+	     					android:layout_width="wrap_content"
+	     					android:layout_weight="0"
+							android:visibility="gone"/>
+					</LinearLayout>
+  				</LinearLayout>
+  				
+				<TabWidget
+					android:id="@android:id/tabs"
+					android:layout_width="fill_parent"
+					android:layout_height="wrap_content"/>
+					
+				<FrameLayout
+					android:id="@android:id/tabcontent"
+					android:layout_width="fill_parent"
+					android:layout_height="wrap_content"
+					android:padding="5dp"/>
+			</LinearLayout>
+	</TabHost>

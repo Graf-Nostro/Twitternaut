@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <menu xmlns:android="http://schemas.android.com/apk/res/android">
+        		<item android:id="@+id/answer"
+              		android:title="Answer tweet"
+              		android:visible="true"
+       		       	android:orderInCategory="1" />
+     		   	<item android:id="@+id/retweet"
+     		        android:title="Retweet"
+    		        android:visible="true"
+         		    android:orderInCategory="2"/>
+       			<item android:id="@+id/url"
+             		android:visible="false"
+              		android:orderInCategory="3"/>
+         		<item android:id="@+id/preview"
+         	  		android:title="Preview available"
+              		android:visible="false"
+              		android:orderInCategory="4"/>
+              	<item android:id="@+id/filterSubMenu"
+              		  android:title="Filter"
+              		  android:visible="false"
+              		  android:orderInCategory="5">
+              		<menu>      	
+              		<item android:id="@+id/hashTag"
+              			android:visible="false"
+              			android:enabled="true"
+              			android:orderInCategory="1"/>
+              		<item android:id="@+id/mention"
+              			android:visible="false"
+              			android:enabled="true"
+              			android:orderInCategory="2"/>
+              		</menu>
+              	</item>
+    </menu>

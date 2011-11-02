@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:id="@+id/customdialog"
+              android:orientation="horizontal"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+              android:padding="8dp"
+              >
+    <ImageView android:id="@+id/previewimage"
+               android:layout_width="fill_parent"
+               android:layout_height="fill_parent"
+               android:layout_marginRight="8dp"
+               android:layout_gravity="center"
+               />
+</LinearLayout>
